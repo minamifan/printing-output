@@ -1,16 +1,31 @@
 //initial setup
-let a=3;
-let b=5;
-let c;
+var a=3;
+var b=5;
+var c;
 
-let output='let a =3;\n'
-output +='let b=5;\n';
-output+='let c;\n';
+var output='var a =3;\n'
+output +='var b=5;\n';
+output+='var c;\n';
 output+='------------\n'
 output+='a+b='+(a+b)+"\n"
+
+output+='a-b='+(a-b)+"\n"
+output+='a*b='+(a*b)+"\n"
+output+='a/b='+(a/b)+"\n"
+output+='a%b='+(a%b)+"\n"
+output+='a+=b='+(a+=b)+"\n"
+output+='a-=b='+(a-=b)+"\n"
+output+='a*=b='+(a*=b)+"\n"
+output+='a/=b='+(a/=b)+"\n"
+output+='a%=b='+(a%=b)+"\n"
+output+='a==b='+(a==b)+"\n"
+output+='a!=b='+(a!=b)+"\n"
+output+='a>b='+(a>b)+"\n"
+output+='a<b='+(a<b)+"\n"
+output+='!a&&!c='+(!a&&!c)+"\n"
+output+='!a||!c='+(!a||!c)+"\n"
 alert(output);
 
-let sum =a+b;
-let sub=a-b;
+
 
 
