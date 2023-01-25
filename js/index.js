@@ -26,6 +26,15 @@ output+='!a&&!c='+(!a&&!c)+"\n"
 output+='!a||!c='+(!a||!c)+"\n"
 alert(output);
 
+//Task 2
+
+var first_name = "HUA";
+var last_name = "FAN";
+var email="fan00069@algonquinlive.com";
+var output = "My name is " + first_name + " " 
++ last_name + ". You can contact me at " + email + ".";
+alert(output);
+
 
 
 
